@@ -3,17 +3,54 @@
     <head>
         <meta charset="utf-8"/>
         <title>Esimene kodukas!</title>
+        <style>
+            li{color: blue;
+            background-color: beige;
+        }
+        .puuvili {background-color: lightgray;
+        }
+        #banaan {
+            color: goldenrod;
+            border-width: 3px;
+            border-color: green;
+            border-style: solid;
+            border-radius: 11px;
+        }
+        </style>
     </head>
     <body>
     <h1>Tere, Kaspar!</h1>
     <p>
         Lorem Ipsum is simply dummy text of the printing and typesetting </p>
         <p>
-        industry. <br>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+        industry. <br>Lorem Ipsum has <b>been the industry's</b> standard dummy text ever since the 1500s, 
         when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
-        It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
+        It has survived not only five <i>centuries</i>, but also the leap into electronic typesetting, remaining essentially unchanged. 
         It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
         and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+    </p>
+    <p>
+       Järjestatud list:
+       <ol>
+        <li>Sportlane1</li>
+        <li style="font-size: 24px;">Sportlane2</li>
+        <li>Sportlane3</li>
+       </ol> 
+    </p>
+    <p>
+        Järjestamata list:
+        <ul>
+            <li id="banaan" class="puuvili">banaan</li>
+            <li class="puuvili">õun</li>
+            <li>piim</li>
+        </ul>
+    </p>
+    <p>
+        <a href="https://delfi.ee"target=”_blank”>Lähme Delfisse!</a>
+    </p>
+    <p>
+       <img src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg" alt="Pilt puust"
+       width="100"/>
     </p>
   </body>
 </html>
