@@ -125,3 +125,8 @@ h4 {
     height: 914px;
 }
 
+.shadow {
+    position: absolute;
+    top: 1000px;
+    right: -350px;
+}
