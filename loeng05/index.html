@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        
         .pilt {
             width: 400px;
         }
@@ -19,7 +20,7 @@
         .pilt5 {width: 100%;}
         .pilt1 {width: 100%;}
         }
-        }
+    }
 
     @media only screen and (max-width: 1000px) {
   body {
@@ -29,12 +30,25 @@
         .pilt4 {width: 50%;}
         .pilt5 {width: 50%;}
         .pilt1 {width: 33%;}
-        .gallery
-        display: grid;
-        grid-template-columns: auto auto auto;
+        }   
+    }
+
+    @media only screen and (min-width: 1000px) {
+  body {
+        .pilt1 {width: 20%;}
+        .pilt1 {width: 20%;}
+        .pilt2 {width: 20%;}
+        .pilt3 {width: 20%;}
+        .pilt4 {width: 20%;}
+        .pilt5 {width: 20%;}
+        .gallery {
+            display: grid;
+            grid-template-columns: 20% 20% 20% 20% 20%;
         }
         }   
-        
+    }
+
+
     </style>
 </head>
 <body>
