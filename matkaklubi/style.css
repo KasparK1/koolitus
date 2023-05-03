@@ -125,6 +125,7 @@ h4 {
 
 .shadow {
     position: absolute;
-    top: 1000px;
-    right: -350px;
+    top: 1009px;
+    right: -340px;
+    z-index: -2;
 }
