@@ -90,7 +90,9 @@ h4 {
     font-weight: 800;
     letter-spacing: 2.25px;
     color: white;
+    border: none;
     background-color: black;
+    cursor: pointer;
 }
 
 .vpilt {
