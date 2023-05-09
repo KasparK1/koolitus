@@ -51,7 +51,7 @@ body {
     opacity: 1;
 }
 
-h2 {
+.pais>h2 {
     padding-top: 338.1px;
     margin: 0;
     height: 48px;
@@ -61,7 +61,7 @@ h2 {
     letter-spacing: 0px;
 }
 
-h1 {
+.pais>h1 {
     margin: 0;
     height: 91px;
     font-size: 74.39px;
@@ -70,7 +70,7 @@ h1 {
     letter-spacing: 0px;
 }
 
-h4 {
+.pais>h4 {
     height: 93px;
     margin: 0;
     font-size: 20.83px;
@@ -128,4 +128,70 @@ h4 {
     top: 1009px;
     right: -340px;
     z-index: -2;
+}
+
+.middle {
+    padding-left: 78.5px;
+    padding-right: 10px;
+}
+
+
+.middle>h2 {
+    margin-top: -50px;
+    letter-spacing: -1,08px;
+    font-size: 54.17px;
+    font-weight: 800;
+    text-align: left;
+}
+
+.middle > h1 {
+    margin-top: 120px;
+    font-size: 38px;
+    letter-spacing: -1,08px;
+    color: rgb(162, 162, 162);
+    font-weight: 800;
+}
+
+.middle > .tekst {
+    width: 449px;
+    height: 211px;
+    font-weight: 400;
+    font-size: 20.83px;
+}
+
+.middle > .pildid {
+    position: absolute;
+    display:flex;
+    overflow-x: hidden;
+    justify-content: space-evenly;
+    gap: 40px;
+    margin-top: -200px;
+    left: 930px;
+    width: 1200px;
+    height: 406px;
+    padding-bottom: 60px;
+}
+
+footer {
+    clear: both;
+    height: 276px;
+    left: 10px;
+    background-color: black;
+    margin-top: 300px;
+}
+
+.kast {
+    background-color: white;
+    width: 56px;
+    height: 276px;
+    padding-left: 50px;
+}
+
+.kast2 {
+    position: absolute;
+    background-color: white;
+    right: 500px;
+    width: 56px;
+    height: 276px;
+    padding-left: 50px;
 }
